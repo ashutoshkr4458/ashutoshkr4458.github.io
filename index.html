@@ -1,11 +1,486 @@
-<html>
-  <head>
-    <title>
-      index
-    </title>
-   </head>
-    <body>
-      this is the index page.
-      <a href="homepage.html">homepage</a>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ashutosh Kumar | Software Engineer</title>
+
+    <meta name="description"
+          content="Ashutosh Kumar - Software Engineer, IIT Kanpur. Interested in systems, C++, distributed systems and quantitative development.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AK</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+
+            <div class="hero-text">
+                <p class="eyebrow">SOFTWARE ENGINEER</p>
+
+                <h1>
+                    Hi, I'm <span>Ashutosh Kumar</span>.
+                </h1>
+
+                <p class="hero-description">
+                    Computer Science graduate from IIT Kanpur with experience
+                    building distributed data processing systems at Microsoft.
+                    Interested in systems, performance engineering, C++,
+                    and quantitative technology.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        View Projects
+                    </a>
+
+                    <a href="assets/resume.pdf"
+                       class="btn secondary-btn"
+                       target="_blank">
+                        Resume
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/YOUR_USERNAME/"
+                       target="_blank">
+                        LinkedIn
+                    </a>
+
+                    <a href="mailto:YOUR_EMAIL@example.com">
+                        Email
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+
+            <p class="section-label">01 — ABOUT</p>
+
+            <h2>About Me</h2>
+
+            <div class="about-content">
+
+                <p>
+                    I'm a Computer Science graduate from IIT Kanpur and a
+                    software engineer with experience working on distributed
+                    data processing systems.
+                </p>
+
+                <p>
+                    My interests lie at the intersection of systems and
+                    performance. I enjoy understanding how software works
+                    underneath the abstractions — from operating systems
+                    and compilers to concurrency and distributed systems.
+                </p>
+
+                <p>
+                    I also have experience in quantitative research through
+                    my internship at a trading firm, where I worked on
+                    alpha generation for Nifty options.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+        <div class="container">
+
+            <p class="section-label">02 — EXPERIENCE</p>
+
+            <h2>Experience</h2>
+
+            <div class="timeline">
+
+                <!-- Microsoft -->
+                <div class="experience-item">
+
+                    <div class="experience-header">
+                        <div>
+                            <h3>Microsoft</h3>
+                            <p class="role">Software Engineer</p>
+                        </div>
+
+                        <span class="date">
+                            2025 – 2026
+                        </span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Worked on distributed data processing systems
+                            using Spark and Azure.
+                        </li>
+
+                        <li>
+                            Built and optimized real-time data processing
+                            pipelines.
+                        </li>
+
+                        <li>
+                            Worked on production infrastructure and
+                            performance optimization.
+                        </li>
+                    </ul>
+
+                    <div class="tags">
+                        <span>Azure</span>
+                        <span>Spark</span>
+                        <span>C#</span>
+                        <span>Java</span>
+                        <span>Distributed Systems</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Graviton -->
+                <div class="experience-item">
+
+                    <div class="experience-header">
+                        <div>
+                            <h3>Graviton Research Capital LLP</h3>
+                            <p class="role">
+                                Quantitative Research Intern
+                            </p>
+                        </div>
+
+                        <span class="date">
+                            Internship
+                        </span>
+                    </div>
+
+                    <ul>
+                        <li>
+                            Worked on alpha generation for Nifty options.
+                        </li>
+
+                        <li>
+                            Investigated trading signals based on
+                            stop-loss behavior.
+                        </li>
+                    </ul>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Quant Research</span>
+                        <span>Options</span>
+                        <span>Statistics</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+
+            <p class="section-label">03 — PROJECTS</p>
+
+            <h2>Projects</h2>
+
+            <div class="project-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>Python Compiler</h3>
+
+                    <p>
+                        A compiler project exploring the internals of
+                        translating Python programs into lower-level
+                        representations.
+                    </p>
+
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Compilers</span>
+                        <span>LLVM</span>
+                    </div>
+
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank"
+                       class="project-link">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+
+                <!-- Project 2 -->
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>Transactional Memory</h3>
+
+                    <p>
+                        Implementation of conflict serialisability checking
+                        using vector clocks, with runtime instrumentation
+                        using Intel PIN.
+                    </p>
+
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Intel PIN</span>
+                        <span>Concurrency</span>
+                    </div>
+
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank"
+                       class="project-link">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+
+                <!-- Project 3 -->
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>Advanced Fuzzy Clustering</h3>
+
+                    <p>
+                        Implementation and analysis of fuzzy clustering
+                        algorithms including Fuzzy C-Means, Gustafson-Kessel,
+                        Entropic FCM and Fuzzy C-Medoids.
+                    </p>
+
+                    <div class="tags">
+                        <span>R</span>
+                        <span>Machine Learning</span>
+                        <span>Statistics</span>
+                    </div>
+
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank"
+                       class="project-link">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+
+                <!-- Project 4 -->
+                <article class="project-card">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <h3>Prony Method Analysis</h3>
+
+                    <p>
+                        Exponential decay modeling using Prony's method,
+                        grid search, residual analysis and Fisher
+                        Information Matrix based confidence intervals.
+                    </p>
+
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Statistics</span>
+                        <span>Numerical Methods</span>
+                    </div>
+
+                    <a href="https://github.com/YOUR_USERNAME"
+                       target="_blank"
+                       class="project-link">
+                        View on GitHub →
+                    </a>
+
+                </article>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="container">
+
+            <p class="section-label">04 — SKILLS</p>
+
+            <h2>Technical Skills</h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-group">
+                    <h3>Languages</h3>
+
+                    <div class="skill-list">
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>Java</span>
+                        <span>Scala</span>
+                        <span>R</span>
+                    </div>
+                </div>
+
+
+                <div class="skill-group">
+                    <h3>Systems</h3>
+
+                    <div class="skill-list">
+                        <span>Operating Systems</span>
+                        <span>Concurrency</span>
+                        <span>Compilers</span>
+                        <span>Distributed Systems</span>
+                        <span>Parallel Programming</span>
+                    </div>
+                </div>
+
+
+                <div class="skill-group">
+                    <h3>Technologies</h3>
+
+                    <div class="skill-list">
+                        <span>Azure</span>
+                        <span>Apache Spark</span>
+                        <span>Kafka</span>
+                        <span>Redis</span>
+                        <span>Kubernetes</span>
+                    </div>
+                </div>
+
+
+                <div class="skill-group">
+                    <h3>Quant / ML</h3>
+
+                    <div class="skill-list">
+                        <span>Statistics</span>
+                        <span>Machine Learning</span>
+                        <span>Game Theory</span>
+                        <span>Algorithms</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Education -->
+    <section class="section">
+        <div class="container">
+
+            <p class="section-label">05 — EDUCATION</p>
+
+            <h2>Education</h2>
+
+            <div class="education-card">
+
+                <div>
+                    <h3>Indian Institute of Technology, Kanpur</h3>
+
+                    <p>
+                        Bachelor of Technology in Computer Science
+                        and Engineering
+                    </p>
+                </div>
+
+                <span class="date">
+                    2021 – 2025
+                </span>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+
+        <div class="container">
+
+            <p class="section-label">06 — CONTACT</p>
+
+            <h2>Let's Connect</h2>
+
+            <p class="contact-description">
+                I'm always interested in discussing interesting problems
+                in systems, software engineering, quantitative technology,
+                and computer science.
+            </p>
+
+            <a href="mailto:YOUR_EMAIL@example.com"
+               class="btn primary-btn">
+                Get in touch
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="container footer-content">
+
+            <p>
+                © 2026 Ashutosh Kumar
+            </p>
+
+            <p>
+                Built with HTML & CSS.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
 </html>
