@@ -506,6 +506,23 @@ a {
     margin-bottom: 30px;
 }
 
+.email-link {
+    display: inline-block;
+
+    color: #8ab4f8;
+
+    font-size: 20px;
+    font-family: monospace;
+
+    border-bottom: 1px solid transparent;
+
+    transition: 0.2s;
+}
+
+.email-link:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
 
 /* =========================================
    Footer
